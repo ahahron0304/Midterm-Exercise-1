@@ -18,7 +18,7 @@ body {
 }
 
 .login-container {
-    width: 50%;
+    width: 60%;
 }
 
 .login-form {
@@ -33,14 +33,14 @@ body {
 
 
 .welcome {
-    width: 50%;
-    height: 100%; 
+    width: 40%;
+    height: 100%; /* Set height for welcome container */
     padding: 20px;
     color: black;
     background-color: rgb(240, 240, 240);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; /* Center vertically */
     border-radius: 3px;
 }
 
@@ -55,15 +55,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     color: #2c220f;
-    text-align: center; 
-    margin-top: -80px; 
+    text-align: center; /* Center the text horizontally */
+    margin-top: -80px; /* Adjusted margin-top */
 }
 
 .logo {
-    width: 180px;
-    height: auto;
-    margin: -90px auto 100px; 
-    display: block; 
+    width: 180px; /* Adjusted width */
+    height: auto; /* Maintain aspect ratio */
+    margin: -90px auto 100px; /* Center image vertically and adjust margin-top */
+    display: block; /* Ensure block-level display for margin */
 }
 
 
@@ -71,8 +71,8 @@ body {
 
 .title1 {
     font-size: 24px;
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: center; /* Align text to center */
+    margin-bottom: 20px; /* Adjusted margin */
     font-weight: bolder;
 }
 
@@ -138,14 +138,14 @@ body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 24px;
         color: #2c220f;
-        text-align: center; 
-        margin-top: -30px; 
+        text-align: center; /* Center the text horizontally */
+        margin-top: -30px; /* Adjusted margin-top */
     }
     
     .logo {
-        width: 50px;
-        height: auto;
-        margin: 0px auto 40px; 
-        display: block; 
+        width: 50px; /* Adjusted width */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0px auto 40px; /* Center image vertically and adjust margin-top */
+        display: block; /* Ensure block-level display for margin */
     }
 }
