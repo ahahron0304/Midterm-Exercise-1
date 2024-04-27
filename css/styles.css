@@ -98,7 +98,7 @@ nav ul li a {
 }
 /* Hero End */
 
-/* Menu - Banner Start */
+/* Menu */
 .banner-container {
     display: flex;
     align-items: center;
@@ -124,32 +124,6 @@ nav ul li a {
 .banner-label-2 {
     font-size: 27px;
     margin-left: 20px;
-}
-/* Menu - Banner End */
-
-.about {
-    background-color: #f4f4f4;
-    padding: 50px 0;
-}
-
-.about h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-footer {
-    background-color: #67481b;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    width: 100%;
-    bottom: 0;
-}
-
-.copyright {
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 0;
 }
 
 .menu-items {
@@ -206,6 +180,32 @@ footer {
 
 .category-item img {
 	width: 360px;
+}
+/* Menu End */
+
+.about {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #67481b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 0;
 }
 
 /* Responsive styles */
