@@ -15,13 +15,11 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #5e4d2e;
-    
     background-size: cover;
 }
 
 .login-container {
     width: 60%;
-    
 }
 
 .login-form {
@@ -37,13 +35,13 @@ body {
 
 .welcome {
     width: 40%;
-    height: 100%; /* Set height for welcome container */
+    height: 100%;
     padding: 20px;
     color: black;
     background-color: rgb(240, 240, 240);
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center vertically */
+    justify-content: center;
     border-radius: 3px;
     align-items: center;
 }
@@ -60,24 +58,21 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     color: #2c220f;
-    text-align: center; /* Center the text horizontally */
-    margin-top: -80px; /* Adjusted margin-top */
+    text-align: center;
+    margin-top: -80px;
 }
 
 .logo {
-    width: 180px; /* Adjusted width */
-    height: auto; /* Maintain aspect ratio */
-    margin: -90px auto 100px; /* Center image vertically and adjust margin-top */
-    display: block; /* Ensure block-level display for margin */
+    width: 180px;
+    height: auto;
+    margin: -90px auto 100px;
+    display: block;
 }
-
-
-
 
 .title1 {
     font-size: 24px;
-    text-align: center; /* Align text to center */
-    margin-bottom: 20px; /* Adjusted margin */
+    text-align: center;
+    margin-bottom: 20px;
     font-weight: bolder;
 }
 
@@ -144,14 +139,14 @@ body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 24px;
         color: #2c220f;
-        text-align: center; /* Center the text horizontally */
-        margin-top: -30px; /* Adjusted margin-top */
+        text-align: center;
+        margin-top: -30px;
     }
     
     .logo {
-        width: 50px; /* Adjusted width */
-        height: auto; /* Maintain aspect ratio */
-        margin: 0px auto 40px; /* Center image vertically and adjust margin-top */
-        display: block; /* Ensure block-level display for margin */
+        width: 50px;
+        height: auto;
+        margin: 0px auto 40px;
+        display: block;
     }
 }

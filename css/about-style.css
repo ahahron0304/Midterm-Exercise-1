@@ -99,15 +99,15 @@ nav ul li a {
 }
 
 .about-logo {
-    height: 400px; /* Adjust the size as needed */
+    height: 400px;
     width: auto;
 }
 
 .info-text {
     flex-grow: 1;
     text-align: justify;
-    margin-left: 20px; /* Add margin to create space */
-    padding: 0 20px; /* Add padding to create space on the sides */
+    margin-left: 20px;
+    padding: 0 20px;
 }
 
 
@@ -159,12 +159,12 @@ footer p {
     }
 
     .about img {
-        height: auto; /* Set height to auto to maintain aspect ratio */
+        height: auto;
     }
     
 
     .about {
-        padding: 20px 0; /* Adjust padding for smaller screens */
+        padding: 20px 0;
     }
 
     .about h2 {
@@ -193,7 +193,7 @@ footer p {
 
     .about-logo {
         margin-bottom: 20px;
-        height: 180px; /* Adjust the size as needed */
+        height: 180px;
         width: auto;
     }
 }

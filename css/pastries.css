@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-/* Base styles */
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100vh;
 }
 
 header {
@@ -58,18 +58,17 @@ nav ul li a {
 
 main {
     flex: 1;
-    display: grid;
+    display: flex;
     grid-template-columns: 1ft 3fr;
     gap: 20px;
     padding: 20px;
 }
 
-.menu-items {
+.products-container {
     flex: 2;
-    display: flex; /* Changed to flex to control flex-direction */
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
-    justify-content: center; /* Center items horizontally */
 }
 
 .item.order-item {
@@ -84,8 +83,8 @@ main {
     border-radius: 5px;
     padding: 10px;
     transition: background-color 0.3s, border-color 0.3s;
-    width: calc(50% - 20px); /* Two items per row with 20px gap */
-    max-width: 200px; /* Limit maximum width of each item */
+    width: calc(50% - 20px);
+    max-width: 200px;
     overflow: hidden;
 }
 
@@ -104,13 +103,13 @@ main {
 }
 
 .cart-container {
-    /* flex: 1;
-    width: 100%; */
-    /* padding: 20px;
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
     background-color: #f0f0f0;
     border: 2px solid #ccc;
     border-radius: 10px;
-    box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 .cart-item {
@@ -144,46 +143,12 @@ footer {
 
 /* Responsive styles */
 @media (max-width: 768px) {
-    header {
-        padding: 10px 0;
-    }
-
     header h1 {
         font-size: 1.5em;
     }
 
-    .menu-items {
-        width: 100%; 
-    }
-    
-    .cart-container {
-        width: 90%; 
-        max-width: 300px; 
-        right: 5%;
-        position: fixed; 
-        bottom: 20px; 
-    }
-}
-
-
-@media (min-width: 769px) {
-    body {
-        display: flex;
+    main {
         flex-direction: column;
-        min-height: 100vh;
     }
-    
-    .menu-items {
-        width: 60%;
-    }
-    
-    .cart-container {
-        width: 300px;
-        padding: 20px;
-        background-color: #f0f0f0; 
-        border: 2px solid #ccc; 
-        border-radius: 10px; 
-        box-sizing: border-box;
-        margin: 20px;
-    }
+
 }

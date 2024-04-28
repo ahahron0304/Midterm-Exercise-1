@@ -148,6 +148,7 @@ nav ul li a {
     margin: auto;
     cursor: pointer;
     overflow: hidden;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0,.5); 
 }
 
 .item:hover {
@@ -158,21 +159,13 @@ nav ul li a {
     display: block;
     color: red;
     font-weight: bold;
+    text-align: center;
 }
 
 .item img {
     position: absolute;
     bottom: 0;
-}
-
-.category-item {
     width: 360px;
-    height: 360px;
-    box-shadow: 10px 10px 10px 5px rgba(0,0,0,.5); 
-}
-
-.category-item label {
-    text-align: center;
 }
 
 .category-item .item-name {
@@ -182,10 +175,6 @@ nav ul li a {
 
 .category-item .kira-kira {
     font-size: 28px;
-}
-
-.category-item img {
-    width: 360px;
 }
 
 .about {
@@ -223,12 +212,20 @@ footer {
         font-size: 1.5em;
     }
 
-    .hero h2 {
-        font-size: 2em;
-    }
-
     .btn {
         padding: 8px 16px;
+    }
+
+    .banner-label-1 {
+        font-size: 25px;
+    }
+
+    .banner-label-2 {
+        font-size: 13px;
+    }
+
+    .menu-items {
+        gap: 30px;
     }
 }
 
